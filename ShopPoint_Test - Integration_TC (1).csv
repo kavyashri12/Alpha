@@ -1,0 +1,427 @@
+TC_ID,TC Name,TC Desciption,Test Step,Test Data,Test Result
+TC_01,Create Account,User should be able to Create Account,Open the browser and Enter the URL,http://49.249.28.218:8081/AppServer/Online_Shopping_Application/,Welcome page should display.
+,,,Click on Login Link,,Sign in/Create new account page should display.
+,,,"Enter all the mandatory fieds with valid
+data and click on sign up button","Full Name : Sandeep R
+Email Address : parthiban9611@gmail.com
+Contact No : 9738371111
+Password : 12345
+Confirm Password : 12345","Account should create and home page should 
+display."
+TC_02,Login to Application,"user should be able to login to
+ application",Open the browser and Enter the URL,http://49.249.28.218:8081/AppServer/Online_Shopping_Application/,Welcome page should display.
+,,,Click on Login Link,,Sign in  page should display.
+,,,Enter valid data and click on Login button.,"Email Address:parthiban9611@gmail.com
+Password:12345",Home page should display.
+TC_03,add product in cart,"user should be able to add product
+to cart",Open the browser and Enter the URL,http://49.249.28.218:8081/AppServer/Online_Shopping_Application/,Welcome page should display.
+,,,Click on Login Link,,Sign in page should display.
+,,,Enter valid data and click on Login button.,"Email Address:parthiban9611@gmail.com
+Password:12345",Home page should display.
+,,,Click on Books,,Books page should display.
+,,,Click on Comic,,Comics page  should display.
+,,,"Select one Book and click on add to cart
+button",,Confirmation pop up should display.
+,,,click on ok button.,,"My cart page should dispaly and book 
+should be present on my cart page."
+TC_04,add product to wishlist,"user should be able to add product to 
+wishlist",Open the browser and Enter the URL,http://49.249.28.218:8081/AppServer/Online_Shopping_Application/,Welcome page should display.
+,,,Click on Login Link,,Sign in page should display.
+,,,Enter valid data and click on Login button.,"Email Address:parthiban9611@gmail.com
+Password:12345",Home page should display.
+,,,click on books,,Books page should display.
+,,,select on comics,,Comics page should display.
+,,,select one book and click on like icon.,,"Wishlist page should display and book should 
+display on wishlist."
+TC_05,"add product to cart from
+wishlist","user should be able to add to add 
+product to cart from wishlist
+",Open the browser and Enter the URL,http://49.249.28.218:8081/AppServer/Online_Shopping_Application/,Welcome page should display.
+,,,Click on Login Link,,Sign in page should display.
+,,,Enter valid data and click on Login button.,"Email Address:parthiban9611@gmail.com 
+Password:12345
+",Home page should display.
+,,,Click on book,,Books page should display.
+,,,Select on comics,,Comics page should display.
+,,,Select one book and click on like icon.,,"Wishlist page should display and book should 
+display on wishlist."
+,,,Click on add to cart button.,,"My cart page should dispaly and added 
+product should display on my cart."
+TC_06,manage products,"admin  should able to manage the
+ product after inserting the product",Open the browser and Enter the URL,http://49.249.28.218:8081/AppServer/Online_Shopping_Application/,Welcome page should display.
+,,,Click on admin login,,
+,,,Enter valid data and click on Login button.,"User name : admin
+Password :admin",Admin page should dispaly.
+,,,Navigate to insert product,,Insert product page should display.
+,,,"Enter all the details and click on insert
+ button",,product should be inserted.
+,,,Navigate to manage products page,,"newly added product should display in 
+manage products page."
+TC_07,"To verify the newly 
+inserted products","user should able to see the newly
+ added product in home page.",Open the browser and Enter the URL,http://49.249.28.218:8081/AppServer/Online_Shopping_Application/,welcome page should display.
+,,,Click on admin login,,Sign in  page should display.
+,,,Enter valid data and click on Login button.,"user name : admin
+ password :admin",Admin page should display.
+,,,Navigate to insert product,,inserted product should dispaly.
+,,,"Enter all the details and click on insert 
+button","Product Name : Dream
+Product Company : Firebolt
+Product Price Before Discount : 10000
+Product Price After Discount(Selling Price) : 5000
+Product Description : 4G support
+Product Shipping Charge : 50",product should be inserted.
+,,,click on Logout button,,Welcome page should display.
+,,,click on login link,,Sign in page should display.
+,,,"Enter the valid details and click on login
+ button.","Email Address:parthiban9611@gmail.com
+ Password:12345",Home page should display.
+,,,"search for added product in the search 
+text field",added product:Dream,inserted product should dispaly.
+TC_08,To confirm order,"client should able to see orders in
+ Today's orders",Open the browser and Enter the URL,http://49.249.28.218:8081/AppServer/Online_Shopping_Application/,welcome page should display.
+,,,click on login link,,Sign in page should display.
+,,,"Enter the valid details and click on login
+ button.","Email Address:parthiban9611@gmail.com
+ Password:12345",Home page should display.
+,,,click on books,,books page should display.
+,,,click on comics,,comics page should display.
+,,,"Select one Book and click on add to cart
+button",,confirmation pop up should display.
+,,,click on ok button.,,"My cart page should dispaly and book should 
+be present on my cart page."
+,,,"Enter shipping and billing address and 
+click on proceed to checkout.","Billing Address : BTM Layout
+Billing State : Karnataka
+Billing City : Bengaluru
+Billing Pincode : 560078
+Shipping Address : JP Nagar
+Shipping Address : Karnataka
+Shipping Address : Bengaluru
+Shipping Address : 560074",payment page should display.
+,,,"select cash on delivery radio button 
+and click on submit button",,order should be placed.
+,,,Logout as user,,welcome page should display.
+,,,click on Admin Login,,Admin page should display.
+,,,"Enter the valid details and click on login
+ button.","user name : admin
+ password :admin",Admin home page should dispaly.
+,,,"navigate to order management and click 
+on Todays order",,order should dispaly on today's order page.
+TC_09,To check order history,"User should able to check the order
+ history",Open the browser and Enter the URL,http://49.249.28.218:8081/AppServer/Online_Shopping_Application/,welcome page should display.
+,,,click on login link,,Sign in page should display.
+,,,"Enter the valid details and click on login
+ button.",,Home page should display.
+,,,click on books,,books page should display.
+,,,click on comics,,comics page should display.
+,,,"Select one Book and click on add to cart
+button",,"My cart page should dispaly and book should 
+be present on my cart page."
+,,,"Enter the billing and shipping address 
+and click on proceed to checkout","Billing Address : BTM Layout
+Billing State : Karnataka
+Billing City : Bengaluru
+Billing Pincode : 560078
+Shipping Address : JP Nagar
+Shipping Address : Karnataka
+Shipping Address : Bengaluru
+Shipping Address : 560074",payment page should display.
+,,,"select cash on delivery radio button 
+and click on submit button",,order should be placed.
+,,,click on my account link,,My account page should display.
+,,,click on order history link,,"order product details should display in order 
+history page"
+TC_10,To check category,"To check newly created category 
+should display on home page
+",Open the browser and Enter the URL,http://49.249.28.218:8081/AppServer/Online_Shopping_Application/,welcome page should display.
+,,,Click on admin login,,Admin page should display.
+,,,"Enter the valid details and click on login
+ button.","user name : admin
+password : admin",Home page should display.
+,,,navigate to create category ,,created category page should display.
+,,,"Enter the valid details and click on create
+ button.","category Name :sunglass
+Description : shades",
+,,,navigate to welcome page.,,"newly created category should display on 
+welcome page."
+TC_11,To verify delivered  order,"To chcek that status of the product is 
+deliverd",Open the browser and Enter the URL,http://49.249.28.218:8081/AppServer/Online_Shopping_Application/,welcome page should display.
+,,,click on login link,,sign in page should display.
+,,,"Enter the valid details and click on 
+login button.","Email Address:parthiban9611@gmail.com
+ Password:12345",Home page should display.
+,,,click on books,,books page should display.
+,,,click on comics,,cpmics page should display.
+,,,"Select one Book and click on add to cart
+ button",,"My cart page should dispaly and book should 
+be present on my cart page."
+,,,"Enter the billing and shipping address 
+and click on proceed to checkout","Billing Address : BTM Layout
+Billing State : Karnataka
+Billing City : Bengaluru
+Billing Pincode : 560078
+Shipping Address : JP Nagar
+Shipping Address : Karnataka
+Shipping Address : Bengaluru
+Shipping Address : 560074",payment page should display.
+,,,"select cash on delivery radio button and 
+click on submit button",,order should be placed.
+,,,Logout as user,,Home page should display.
+,,,click on admin login link,,admin page should display.
+,,,"Enter the valid details and click on login
+ button.","user name : admin
+ password : admin",Home page should display.
+,,,"click on orders management and 
+click on Today's orders",,product should display in todays  order page.
+,,,click on update order button,,update order page should display.
+,,,"select the status as delivered from status
+dropdown  and  give marks in remarks text
+ area and click  on update button.",,Alert pop up should display.
+,,,click on ok button.,,update order page should display.
+,,,click on deliverd orders,,product should display in delivered order page.
+TC_12,To verify pending  order,"To chcek that status of the product is 
+pending",Open the browser and Enter the URL,http://49.249.28.218:8081/AppServer/Online_Shopping_Application/,welcome page should display.
+,,,click on login link,,sign in page should display.
+,,,"Enter the valid details and click on 
+login button.",,Home page should display.
+,,,click on books,,books page should display.
+,,,click on comics,,cpmics page should display.
+,,,"Select one Book and click on add to cart
+ button",,"My cart page should dispaly and book should 
+be present on my cart page."
+,,,"Enter the billing and shipping address 
+and click on proceed to checkout","Billing Address : BTM Layout
+Billing State : Karnataka
+Billing City : Bengaluru
+Billing Pincode : 560078
+Shipping Address : JP Nagar
+Shipping Address : Karnataka
+Shipping Address : Bengaluru
+Shipping Address : 560074",payment page should display.
+,,,"select cash on delivery radio button and 
+click on submit button",,order should be placed.
+,,,Logout as user,,Home page should display.
+,,,click on admin login link,,admin page should display.
+,,,"Enter the valid details and click on login
+ button.","user name : admin
+ password : admin",Home page should display.
+,,,"click on orders management and 
+click on Today's orders",,product should display in todays  order page.
+,,,click on update order button,,update order page should display.
+,,,"select the status as in progress  from status
+dropdown  and  give marks in remarks text
+ area and click  on update button.",,Alert pop up should display.
+,,,click on ok button.,,update order page should display.
+,,,click on pending orders,,product should display in pending orders page.
+TC_13,To verify deleted products,"To check user should able to see 
+product or not after deleting.",Open the browser and Enter the URL,http://49.249.28.218:8081/AppServer/Online_Shopping_Application/,Welcome page should display.
+,,,Click on admin login,,Sign in  page should display.
+,,,Enter valid data and click on Login button.,"User name : admin
+Password :admin",Admin page should dispaly.
+,,,Navigate to insert product,,Insert product page should display.
+,,,"Enter all the details and click on insert
+ button",,product should be inserted.
+,,,Navigate to manage products page,,"newly added product should display in 
+manage products page."
+,,,click on x icon ,,confirmation pop up should display.
+,,,click on ok button.,,product should be deleted.
+,,,Logout as admin,,welcome page should display.
+,,,click on login link,,Sign in page should display
+,,,"Enter the valid details and click on 
+login button.","Email Address:parthiban9611@gmail.com
+Password:12345",Home page should display.
+,,,"search for  deleted product in the search 
+text field",,product should not display.
+TC_14,"Remove the product 
+from wishlist.","User should able to add mobile to 
+wishlist.",Open the browser and Enter the URL,http://49.249.28.218:8081/AppServer/Online_Shopping_Application/,Welcome page should display.
+,,,Click on Login Link,,Sign in  page should display.
+,,,Enter valid data and click on Login button.,"Email Address:parthiban9611@gmail.com
+password:12345",Home Page should display.
+,,,Click on Electronics Category Page,,Electronics page should display.
+,,,Click on Mobiles subcategory ,,Mobiles page should display.
+,,,Select iphone and click on like icon.,,
+,,,Navigate to wishlist page.,,Wishlist page should display with liked iphone.
+,,,click on x icon.,,liked product should be deleted from wishlist.
+TC_15,"Remove the product from 
+cart","User should able to add mobile to 
+cart page",Open the browser and Enter the URL,http://49.249.28.218:8081/AppServer/Online_Shopping_Application/,Welcome page should display.
+,,,Click on Login Link,,Sign in  page should display.
+,,,Enter valid data and click on Login button.,"Email Address:parthiban9611@gmail.com
+password:12345",Home Page should display.
+,,,Click on Electronics Category Page,,Electronics page should display.
+,,,Click on Mobiles subcategory ,,Mobiles page should display.
+,,,Select iphone and click on like icon,,
+,,,Navigate to wishlist page.,,Wishlist page should display.
+,,,"Select the liked iphone
+Click on add to cart button.",,Book should be added to the cart.
+,,,Navigate to cart page.,,My cart page should display.
+,,,"Check the checbox to remove product and 
+click on update shopping cart button.",,Product should be deleted from cart.
+TC_16,Add Sub-Category,"admin should be able to add 
+sub-category.",Open the browser and Enter the URL,http://49.249.28.218:8081/AppServer/Online_Shopping_Application/,welcome page should display.
+,,,Click on admin login,,Admin page should display.
+,,,"Enter the valid details and click on login
+ button.","user name : admin
+password : admin",Home page should display.
+,,,Navigate to sub category,,Sub-category page should display.
+,,,"Select the category from the Category
+dropdown and enter the valid details and 
+click on create button.",,Sub-category should be created.
+,,,Logout as admin,,welcome page should display.
+,,,click on category ,,"category page should display along with newl
+added sub category."
+TC_17,"Insert and delete the
+ product","To chcek that admin should able to
+insert and delete the product ",Open the browser and Enter the URL,http://49.249.28.218:8081/AppServer/Online_Shopping_Application/,Welcome page should display.
+,,,Click on admin login,,Sign in  page should display.
+,,,Enter valid data and click on Login button.,"User name : admin
+Password :admin",Admin page should dispaly.
+,,,Navigate to insert product,,Insert product page should display.
+,,,"Enter all the details and click on insert
+ button","Product Name : Dream
+Product Company : Firebolt
+Product Price Before Discount : 10000
+Product Price After Discount(Selling Price) : 5000
+Product Description : 4G support
+Product Shipping Charge : 50",product should be inserted.
+,,,Navigate to manage products page,,"newly added product should display in 
+manage products page."
+,,,click on x icon ,,confirmation pop up should display.
+,,,click on ok button.,,product should be deleted.
+,,,Logout as admin,,welcome page should display.
+,,,click on login link,,Sign in page should display
+,,,"Enter the valid details and click on 
+login button.","Email Address:parthiban9611@gmail.com
+Password:12345",Home page should display.
+,,,"search for  deleted product in the search 
+text field",,product should not display.
+TC_18,Track the order,User should able to track the order,Open the browser and Enter the URL,http://49.249.28.218:8081/AppServer/Online_Shopping_Application/,Welcome page should display.
+,,,Click on Login Link,,Sign in  page should display.
+,,,Enter valid data and click on Login button.,"Email Address:parthiban9611@gmail.com
+password:12345",Home Page should display.
+,,,Click on Books Category Page,,Books page should display.
+,,,Click on Comics subcategory ,,Comics page should display.
+,,,select one book and click on like icon.,,
+,,,Navigate to wishlist page.,,Wishlist page should display.
+,,,"Select the book
+Click on add to cart button.",,Book should be added to the cart.
+,,,Navigate to cart page.,,"My cart page should display with added product.
+"
+,,,"Enter shipping address and billing address and
+click on proceed to checkout
+","Billing Address : BTM Layout
+Billing State : Karnataka
+Billing City : Bengaluru
+Billing Pincode : 560078
+Shipping Address : JP Nagar
+Shipping Address : Karnataka
+Shipping Address : Bengaluru
+Shipping Address : 560074","Payment page should dipslay.
+"
+,,,"select payment mode as COD and 
+click on submit button.",,Order should be placed.
+,,,Click on Track order link.,,Track order page should display.
+,,,Enter valid data and click on track.,"Order_Id : 6
+Registered mail_id : parthiban9611@gmail.com",Order tracking details should display.
+TC_19,update product in cart,User should able to place order,Open the browser and Enter the URL,http://49.249.28.218:8081/AppServer/Online_Shopping_Application/,Welcome page should display.
+,,,Click on Login Link,,Sign in  page should display.
+,,,Enter valid data and click on Login button.,"Email Address:parthiban9611@gmail.com
+password:12345",Home Page should display.
+,,,Click on Books Category Page,,Books page should display.
+,,,Click on Comics subcategory ,,Comics page should display.
+,,,select one book and click on like icon.,,
+,,,Navigate to wishlist page.,,Wishlist page should display.
+,,,"Select the book
+Click on add to cart button.",,Book should be added to the cart.
+,,,Navigate to cart page.,,"My cart page should display with added product.
+"
+,,,"change the quantity of product and click 
+on update shopping cart button.",,my cart page should be displayed with update.
+TC_20,Modify the product,"admin can able to modify the
+product from manage products.",Open the browser and Enter the URL,http://49.249.28.218:8081/AppServer/Online_Shopping_Application/,Welcome page should display.
+,,,Click on admin login,,Sign in  page should display.
+,,,Enter valid data and click on Login button.,"User name : admin
+Password :admin",Admin page should dispaly.
+,,,Navigate to insert product,,Insert product page should display.
+,,,"Enter all the details and  select appropriate 
+dropdowns and choose imagesclick on insert 
+button.","Product Name : Dream
+Product Company : Firebolt
+Product Price Before Discount : 10000
+Product Price After Discount(Selling Price) : 5000
+Product Description : 4G support
+Product Shipping Charge : 50",product should be inserted.
+,,,Navigate to manage products page,,"newly added product should display in 
+manage products page."
+,,,click on pen icon  of the newly inserted product.,,Insert product page should display.
+,,,"Enter all the modification details and  select 
+appropriate  dropdowns and choose images
+click on update button.","Product Name : Dream
+Product Company : Firebolt
+Product Price Before Discount : 10000
+Product Price After Discount(Selling Price) : 2500
+Product Description : 4G support
+Product Shipping Charge : 20",product should be updated.
+TC_21,"To add multiple product
+to cart","User should able to add multiple 
+product to cart",Open the browser and Enter the URL,http://49.249.28.218:8081/AppServer/Online_Shopping_Application/,Welcome page should display.
+,,,Click on Login Link,,Sign in page should display.
+,,,Enter valid data and click on Login button.,"Email Address:parthiban9611@gmail.com
+Password:12345",Home page should display.
+,,,Click on Books,,Books page should display.
+,,,Click on Comic,,Comics page  should display.
+,,,"Select one Book and click on add to cart
+button",,Confirmation pop up should display.
+,,,click on ok button.,,"My cart page should dispaly and book 
+should be present on my cart page."
+,,,click on continue shipping ,,Home page should display.
+,,,"select the product and click on add to 
+cart button.",,"My cart page should dispaly along with 
+multiple products should be present on my 
+cart page."
+TC_22,"To remove multiple 
+product from the cart","User should able to remove multiple 
+product to cart",Open the browser and Enter the URL,http://49.249.28.218:8081/AppServer/Online_Shopping_Application/,Welcome page should display.
+,,,Click on Login Link,,Sign in page should display.
+,,,Enter valid data and click on Login button.,"Email Address:parthiban9611@gmail.com
+Password:12345",Home page should display.
+,,,Click on Books,,Books page should display.
+,,,Click on Comic,,Comics page  should display.
+,,,"Select one Book and click on add to cart
+button",,Confirmation pop up should display.
+,,,click on ok button.,,"My cart page should dispaly and book 
+should be present on my cart page."
+,,,click on continue shipping ,,Home page should display.
+,,,"select the product and click on add to 
+cart button.",,"My cart page should dispaly along with 
+multiple products should be present on my 
+cart page."
+,,,"select the checkbox in my cart page and
+click on update shopping cart",,Alert pop up should display.
+,,,click on ok button.,,"selected product should not display in my 
+cart page."
+TC_23,Check Login Log,"Admin should be able to check 
+login log",Open the browser and Enter the URL,http://49.249.28.218:8081/AppServer/Online_Shopping_Application/,Welcome page should display.
+,,,Click on admin login,,Admin page should dispaly.
+,,,Enter valid data and click on Login button.,"User name : admin
+Password :admin",Home page should dispaly.
+,,,Navigate to user login log,,"manage users page should display with login 
+status."
+TC_24,navigate to facebook,User should be able to navigate to facebook login page,Navigate to application,http://49.249.28.218:8081,home page should be displayed.
+,,,Navigate to electronics page,,Electronics page should be displayed.
+,,,navigate to product details page,,product details page will be displayed
+TC_25,navigate to twitter,User should be able to navigate to twitter login page,Navigate to application,http://49.249.28.218:8081,home page should be displayed.
+,,,Navigate to electronics page,,Electronics page should be displayed.
+,,,navigate to product details page,,product details page will be displayed
+TC_26,navigate to linkedin,User should be able to navigate to linkedin login page,Navigate to application,http://49.249.28.218:8081,home page should be displayed.
+,,,Navigate to electronics page,,Electronics page should be displayed.
+,,,navigate to product details page,,product details page will be displayed
+,,,Click on linkedin icon,,linkedin login page should be displayed.
+TC_27,Logout,User should be able to logout,navigate to application,http://49.249.28.218:8081,home page should be displayed.
+,,,click on logout link,,signin page should be displayed.
+TC_28,navigate to wifi page,User should be able to navigate to wifi page,Navigate to application,http://49.249.28.218:8081,home page should be displayed.
+,,,Navigate to electronics page,,Electronics page should be displayed.
+,,,navigate to product details page,,product details page will be displayed
+,,,Click on wifi icon,,wifi page should be displayed.
